@@ -1,7 +1,7 @@
 import './PosterPage.css';
 import React from 'react';
-import img1 from '../../../assets/1.webp';
-import img2 from '../../../assets/react.svg';
+import img1 from '../../assets/1.webp';
+import img2 from '../../assets/react.svg';
 
 const posters = [
   {
