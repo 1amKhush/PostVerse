@@ -1,0 +1,77 @@
+/* neon-header.css */
+:root {
+    --header-height: 80px;
+    --header-height-scrolled: 60px;
+    --bg-color: #121212; /* Nearly black background */
+    --bg-color-scrolled: #1c1c1c;
+    --accent-color: #00e6ff; /* Neon cyan */
+    --accent-color2: #ff3de0; /* Neon pink */
+    --transition-time: 0.4s;
+    --backdrop-blur: 5px;
+  }
+  
+  /* Slide in animation for a smooth header entry */
+  @keyframes slideInDown {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--header-height);
+    background: var(--bg-color);
+    backdrop-filter: blur(var(--backdrop-blur));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: height var(--transition-time) ease,
+                background var(--transition-time) ease,
+                box-shadow var(--transition-time) ease;
+    /* Neon glow effect with accent color */
+    box-shadow: 0 0 15px var(--accent-color);
+    z-index: 1000;
+    animation: slideInDown 0.5s ease-out;
+  }
+  
+  .shop-name {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    transition: transform var(--transition-time) ease, filter var(--transition-time) ease;
+    /* Gradient text for neon effect */
+    background: linear-gradient(90deg, var(--accent-color), var(--accent-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* Neon glow effect */
+    text-shadow: 0 0 10px var(--accent-color);
+  }
+  
+  /* Updated styles when the header is scrolled */
+  .header.scrolled {
+    height: var(--header-height-scrolled);
+    background: var(--bg-color-scrolled);
+    box-shadow: 0 0 20px var(--accent-color);
+  }
+  
+  .header.scrolled .shop-name {
+    transform: scale(0.9);
+    /* Increase glow intensity when scrolled */
+    text-shadow: 0 0 15px var(--accent-color);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .shop-name {
+      font-size: 1.8rem;
+    }
+  }
+  
