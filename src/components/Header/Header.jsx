@@ -20,8 +20,8 @@ export default function Header() {
   }, []);
 
   return (
-    <div className="header" ref={headerRef}>
-      <h1 className="shop-name">PostVerse</h1>
+    <div className="header" ref={headerRef}> 
+      <h1 className="shop-name" style={{ fontSize: '60px' }}>POSTVERSE</h1>
     </div>
   );
 }
