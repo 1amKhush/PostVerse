@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import '../Header/header.css';
+import '../Header/Header.css';
 
 export default function Header() {
   const headerRef = useRef(null);
