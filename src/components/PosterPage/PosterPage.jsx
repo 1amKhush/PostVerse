@@ -1,45 +1,47 @@
 import './PosterPage.css';
 import React from 'react';
+import img1 from '../../../assets/1.webp';
+import img2 from '../../../assets/react.svg';
 
 const posters = [
   {
     id: 1,
-    image: 'src/assets/1.webp',
+    image: img1,
     description: '1',
   },
   {
     id: 2,
-    image: 'src/assets/react.svg',
+    image: img2,
     description: 'React Poster: Build dynamic UIs with ease.',
   },
   {
     id: 3,
-    image: 'src/assets/react.svg',
+    image: img2,
     description: 'React Poster: Build dynamic UIs with ease.',
   },
   {
     id: 4,
-    image: 'src/assets/react.svg',
+    image: img2,
     description: 'React Poster: Build dynamic UIs with ease.',
   },
   {
     id: 5,
-    image: 'src/assets/react.svg',
+    image: img2,
     description: 'React Poster: Build dynamic UIs with ease.',
   },
   {
     id: 6,
-    image: 'src/assets/react.svg',
+    image: img2,
     description: 'React Poster: Build dynamic UIs with ease.',
   },
   {
     id: 7,
-    image: 'src/assets/react.svg',
+    image: img2,
     description: 'React Poster: Build dynamic UIs with ease.',
   },
   {
     id: 8,
-    image: 'src/assets/react.svg',
+    image: img2,
     description: 'React Poster: Build dynamic UIs with ease.',
   },
 ];
