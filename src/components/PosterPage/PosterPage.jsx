@@ -74,6 +74,67 @@ import img71 from '../../assets/image71.png';
 import img72 from '../../assets/image72.png';
 import img73 from '../../assets/image73.png';
 import img74 from '../../assets/image74.png';
+import img75 from '../../assets/image75.png';
+import img76 from '../../assets/image76.png';
+import img77 from '../../assets/image77.png';
+import img78 from '../../assets/image78.png';
+import img79 from '../../assets/image79.png';
+import img80 from '../../assets/image80.png';
+import img81 from '../../assets/image81.png';
+import img82 from '../../assets/image82.png';
+import img83 from '../../assets/image83.png';
+import img84 from '../../assets/image84.png';
+import img85 from '../../assets/image85.png';
+import img86 from '../../assets/image86.png';
+import img87 from '../../assets/image87.png';
+import img88 from '../../assets/image88.png';
+import img89 from '../../assets/image89.png';
+import img90 from '../../assets/image90.png';
+import img91 from '../../assets/image91.png';
+import img92 from '../../assets/image92.png';
+import img93 from '../../assets/image93.png';
+import img94 from '../../assets/image94.png';
+import img95 from '../../assets/image95.png';
+import img96 from '../../assets/image96.png';
+import img97 from '../../assets/image97.png';
+import img98 from '../../assets/image98.png';
+import img99 from '../../assets/image99.png';
+import img100 from '../../assets/image100.png';
+import img101 from '../../assets/image101.png';
+import img102 from '../../assets/image102.png';
+import img103 from '../../assets/image103.png';
+import img104 from '../../assets/image104.png';
+import img105 from '../../assets/image105.png';
+import img106 from '../../assets/image106.png';
+import img107 from '../../assets/image107.png';
+import img108 from '../../assets/image108.png';
+import img109 from '../../assets/image109.png';
+import img110 from '../../assets/image110.png';
+import img111 from '../../assets/image111.png';
+import img112 from '../../assets/image112.png';
+import img113 from '../../assets/image113.png';
+import img114 from '../../assets/image114.png';
+import img115 from '../../assets/image115.png';
+import img116 from '../../assets/image116.png';
+import img117 from '../../assets/image117.png';
+import img118 from '../../assets/image118.png';
+import img119 from '../../assets/image119.png';
+import img120 from '../../assets/image120.png';
+import img121 from '../../assets/image121.png';
+import img122 from '../../assets/image122.png';
+import img123 from '../../assets/image123.png';
+import img124 from '../../assets/image124.png';
+import img125 from '../../assets/image125.png';
+import img126 from '../../assets/image126.png';
+import img127 from '../../assets/image127.png';
+import img128 from '../../assets/image128.png';
+import img129 from '../../assets/image129.png';
+import img130 from '../../assets/image130.png';
+import img131 from '../../assets/image131.png';
+import img132 from '../../assets/image132.png';
+import img133 from '../../assets/image133.png';
+import img134 from '../../assets/image134.png';
+
 
 const posters = [
   {
@@ -445,6 +506,306 @@ const posters = [
     id: 74,
     image: img74,
     description: 'Poster 74',
+  },
+  {
+    id: 75,
+    image: img75,
+    description: 'Poster 75',
+  },
+  {
+    id: 76,
+    image: img76,
+    description: 'Poster 76',
+  },
+  {
+    id: 77,
+    image: img77,
+    description: 'Poster 77',
+  },
+  {
+    id: 78,
+    image: img78,
+    description: 'Poster 78',
+  },
+  {
+    id: 79,
+    image: img79,
+    description: 'Poster 79',
+  },
+  {
+    id: 80,
+    image: img80,
+    description: 'Poster 80',
+  },
+  {
+    id: 81,
+    image: img81,
+    description: 'Poster 81',
+  },
+  {
+    id: 82,
+    image: img82,
+    description: 'Poster 82',
+  },
+  {
+    id: 83,
+    image: img83,
+    description: 'Poster 83',
+  },
+  {
+    id: 84,
+    image: img84,
+    description: 'Poster 84',
+  },
+  {
+    id: 85,
+    image: img85,
+    description: 'Poster 85',
+  },
+  {
+    id: 86,
+    image: img86,
+    description: 'Poster 86',
+  },
+  {
+    id: 87,
+    image: img87,
+    description: 'Poster 87',
+  },
+  {
+    id: 88,
+    image: img88,
+    description: 'Poster 88',
+  },
+  {
+    id: 89,
+    image: img89,
+    description: 'Poster 89',
+  },
+  {
+    id: 90,
+    image: img90,
+    description: 'Poster 90',
+  },
+  {
+    id: 91,
+    image: img91,
+    description: 'Poster 91',
+  },
+  {
+    id: 92,
+    image: img92,
+    description: 'Poster 92',
+  },
+  {
+    id: 93,
+    image: img93,
+    description: 'Poster 93',
+  },
+  {
+    id: 94,
+    image: img94,
+    description: 'Poster 94',
+  },
+  {
+    id: 95,
+    image: img95,
+    description: 'Poster 95',
+  },
+  {
+    id: 96,
+    image: img96,
+    description: 'Poster 96',
+  },
+  {
+    id: 97,
+    image: img97,
+    description: 'Poster 97',
+  },
+  {
+    id: 98,
+    image: img98,
+    description: 'Poster 98',
+  },
+  {
+    id: 99,
+    image: img99,
+    description: 'Poster 99',
+  },
+  {
+    id: 100,
+    image: img100,
+    description: 'Poster 100',
+  },
+  {
+    id: 101,
+    image: img101,
+    description: 'Poster 101',
+  },
+  {
+    id: 102,
+    image: img102,
+    description: 'Poster 102',
+  },
+  {
+    id: 103,
+    image: img103,
+    description: 'Poster 103',
+  },
+  {
+    id: 104,
+    image: img104,
+    description: 'Poster 104',
+  },
+  {
+    id: 105,
+    image: img105,
+    description: 'Poster 105',
+  },
+  {
+    id: 106,
+    image: img106,
+    description: 'Poster 106',
+  },
+  {
+    id: 107,
+    image: img107,
+    description: 'Poster 107',
+  },
+  {
+    id: 108,
+    image: img108,
+    description: 'Poster 108',
+  },
+  {
+    id: 109,
+    image: img109,
+    description: 'Poster 109',
+  },
+  {
+    id: 110,
+    image: img110,
+    description: 'Poster 110',
+  },
+  {
+    id: 111,
+    image: img111,
+    description: 'Poster 111',
+  },
+  {
+    id: 112,
+    image: img112,
+    description: 'Poster 112',
+  },
+  {
+    id: 113,
+    image: img113,
+    description: 'Poster 113',
+  },
+  {
+    id: 114,
+    image: img114,
+    description: 'Poster 114',
+  },
+  {
+    id: 115,
+    image: img115,
+    description: 'Poster 115',
+  },
+  {
+    id: 116,
+    image: img116,
+    description: 'Poster 116',
+  },
+  {
+    id: 117,
+    image: img117,
+    description: 'Poster 117',
+  },
+  {
+    id: 118,
+    image: img118,
+    description: 'Poster 118',
+  },
+  {
+    id: 119,
+    image: img119,
+    description: 'Poster 119',
+  },
+  {
+    id: 120,
+    image: img120,
+    description: 'Poster 120',
+  },
+  {
+    id: 121,
+    image: img121,
+    description: 'Poster 121',
+  },
+  {
+    id: 122,
+    image: img122,
+    description: 'Poster 122',
+  },
+  {
+    id: 123,
+    image: img123,
+    description: 'Poster 123',
+  },
+  {
+    id: 124,
+    image: img124,
+    description: 'Poster 124',
+  },
+  {
+    id: 125,
+    image: img125,
+    description: 'Poster 125',
+  },
+  {
+    id: 126,
+    image: img126,
+    description: 'Poster 126',
+  },
+  {
+    id: 127,
+    image: img127,
+    description: 'Poster 127',
+  },
+  {
+    id: 128,
+    image: img128,
+    description: 'Poster 128',
+  },
+  {
+    id: 129,
+    image: img129,
+    description: 'Poster 129',
+  },
+  {
+    id: 130,
+    image: img130,
+    description: 'Poster 130',
+  },
+  {
+    id: 131,
+    image: img131,
+    description: 'Poster 131',
+  },
+  {
+    id: 132,
+    image: img132,
+    description: 'Poster 132',
+  },
+  {
+    id: 133,
+    image: img133,
+    description: 'Poster 133',
+  },
+  {
+    id: 134,
+    image: img134,
+    description: 'Poster 134',
   },
 ];
 
